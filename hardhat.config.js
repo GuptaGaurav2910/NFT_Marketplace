@@ -17,10 +17,6 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    goerli: {
-      url: process.env.REACT_APP_ALCHEMY_API_URL,
-      accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
-    },
     sepolia: {
       url: process.env.REACT_APP_ALCHEMY_API_URL, // Infura URL (Replace with your own URL if you use another provider)
       accounts: [ process.env.REACT_APP_PRIVATE_KEY ], // Private key from your wallet (You can use an environment variable)
