@@ -1,4 +1,3 @@
-import './App.css';
 import Marketplace from './components/Marketplace';
 import Profile from './components/Profile';
 import SellNFT from './components/SellNFT';
@@ -7,7 +6,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
 function App() {
   return (
     <div>
