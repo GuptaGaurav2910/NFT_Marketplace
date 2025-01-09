@@ -1,0 +1,110 @@
+/* General styles for the section */
+.dev-summ_content-section {
+    padding: 50px 0;
+  }
+  
+  .content-container_1200 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Grid layout for the cards */
+  .dev-summ_2grid-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Card Wrapper */
+  .dev-summ_card-wrapper {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure all cards take equal height */
+  }
+  
+  /* Card border and background */
+  .dev-summ_card-border {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%; /* Ensure the border wraps the entire card */
+  }
+  
+  /* Background color for card sections */
+  .state-of-sd {
+    border: 1px solid #e1e1e1;
+  }
+  
+  /* Background and image of the card */
+  .dev-summ_card-bg {
+    padding: 20px;
+    text-align: center;
+    background-color: #474343;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items in a row */
+    gap: 15px; /* Space between image and text */
+    height: 100%;
+  }
+  
+  /* Specific card background */
+  .state-of-sd-why-attend {
+    background-color: #d7dbde;
+  }
+  
+  /* Card Icon Styling */
+  .dev-summ_card-icon-round {
+    width: 70px;
+    height: 70px; /* Ensure all images have same size */
+    border-radius: 50%;
+  }
+  
+  /* Text inside the card */
+  .dev-summ_text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1; /* Allow the text box to take the remaining height */
+  }
+  
+  /* Rich text style */
+  .dev-summ_rich-text {
+    display: flex;
+    flex-direction: column; /* Stack the heading and paragraph */
+    justify-content: flex-start;
+    gap: 5px; /* Adjust the space between h2 and p */
+  }
+  
+  .dev-summ_rich-text h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  .dev-summ_rich-text p {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin: 0;
+  }
+  
+  /* Special style for specific text */
+  .chaos-carival-why-attend h2 {
+    color: #9b59b6;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .dev-summ_card-wrapper {
+      width: 100%;
+    }
+    .dev-summ_card-bg {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

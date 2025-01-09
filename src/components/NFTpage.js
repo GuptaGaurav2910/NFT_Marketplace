@@ -4,6 +4,7 @@ import MarketplaceJSON from "../Marketplace.json";
 import axios from "axios";
 import { useState,useEffect } from "react";
 import { GetIpfsUrlFromPinata } from "../utils";
+import Footer from "./Footer";
 
 export default function NFTPage (props) {
 
@@ -119,6 +120,7 @@ async function buyNFT() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

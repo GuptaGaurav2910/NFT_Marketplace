@@ -11,8 +11,12 @@ body {
   /*font-family: 'M PLUS 1p', sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./bg.png');
-  background-size: 200% 380%;
+  /* background-image: url('./bg.png'); */
+  background-color:#000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Makes the background fixed when scrolling (optional) */
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-delay: 0s;
